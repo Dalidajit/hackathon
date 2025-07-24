@@ -1,0 +1,161 @@
+header , footer{
+	background-color: #efbc49;
+	color: black;
+}
+
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    margin: 20px;
+    justify-content: center ;
+    font-size: 50px;
+    background-color: #efbc49;
+flex-wrap: wrap;
+padding-right: 30px;
+}
+
+.menu li a {
+	display: block;
+	color: black;
+	margin: 10px;
+	font-weight: bold;
+	text-decoration: none;}
+
+.menu li a:hover {
+	color: #efbc49;
+	background-color: black;
+
+}
+
+
+.bloc {
+	display: flex;
+	gap:20px;
+	justify-content: center;
+	align-items:center ;
+	margin: 20px;
+	
+
+}
+
+.bloc img {
+	margin-right: 20px;
+	height: auto;
+}
+
+
+footer {
+	width: auto;
+	height: auto;
+	font-size: 50px;
+	color: black;
+
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+button {
+	font-size: 25px;
+	background-color: #e398ae;
+	color: black;
+	border: solid;
+	border-radius: 15px 10px 15px 10px;
+	text-align: right;
+	padding: 30px 85px 30px 85px;
+	display: block;
+	margin: 20px auto;
+}
+
+h1 {
+	text-align: center;
+	font-size: 60px;
+}
+
+.profil , .pp{
+	display: flex;
+	flex-wrap: wrap;
+	font-family: 'Aoboshi One' serif;
+}
+
+.pro {
+	width: 50%;
+	padding: 5px;
+	box-sizing: border-box;
+	border: solid 3px ;
+	border-radius: 40px ;
+	display: block;
+	margin: 10px auto;
+	width: 600px;
+
+
+}
+
+.pro img {
+	display: block;
+	margin:0 auto;
+	border-radius:50%;
+	border : 1px solid black;
+}
+
+.pro ul {
+	text-align: center;
+	font-size: 30px;
+
+}
+h1 {
+	text-align: center;
+	font-size: 60px;
+	font-family: 'Shrikhand', cursive;
+	border: solid 2px black;
+	background-color: #fdfeaf;
+	border-radius: 50px;
+}
+
+h2 {
+	text-align: left;
+	text-decoration: underline;
+	font-size: 50 px;
+	font-family: 'DM Serif Display', serif;
+
+}
+
+li {
+	list-style: none;
+}
+.pro button{
+	background-color: #e398ae;
+	display: block;
+	margin: 0 auto;
+}
+
+.pro button a{
+	font-size: 30px;
+	color:black;
+}
+
+
+body {
+	font-family: 'Aoboshi One' , serif;
+}
+
+footer {
+	font-size:30px ;
+	width: auto;
+	font-weight: bold;
+
+}
+
+.ecole {
+	width: 50%;
+	padding: 5px;
+	box-sizing: border-box;
+	border: solid 3px ;
+	border-radius: 40px ;
+	display: block;
+	margin: 0 auto;
+	
+}
