@@ -149,6 +149,7 @@ footer {
 }
 
 .ecole {
+	display: flex ;
 	width: 50%;
 	padding: 5px;
 	box-sizing: border-box;
