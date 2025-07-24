@@ -176,5 +176,7 @@ footer {
   }
 
 @media (max-width: 768px) {.menu ul , .profil , .pp ,.ecole{ 
-	flex-wrap : wrap}}
+	align-items: center ;
+	flex-direction: column;
+	flex-wrap : wrap;}}
 	
